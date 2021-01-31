@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc -w -p ./tsconfig.json",
-    "start": "node ./src/index.js"
+    "start": "node ./dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,15 @@
   },
   "homepage": "https://github.com/all-f-0/news_spider#readme",
   "dependencies": {
+    "@types/lodash": "^4.14.168",
     "@types/node": "^14.14.22",
     "@types/puppeteer": "^5.4.2",
     "@types/puppeteer-core": "^5.4.0",
-    "puppeteer-core": "5.5.0"
+    "@types/uuid": "^8.3.0",
+    "lodash": "^4.17.20",
+    "puppeteer-core": "5.5.0",
+    "random-int": "^2.0.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "eslint": "^6.7.2",
